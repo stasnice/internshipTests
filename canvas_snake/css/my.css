@@ -1,0 +1,92 @@
+* {
+    margin: 0;
+    padding: 0;
+}
+
+#cv {
+    width: 600px;
+    height: 600px;
+    border: 2px solid black;
+    background-color: grey;
+}
+
+.main {
+    margin: 0 auto;
+    width: 1000px;
+    display: flex;
+    padding-top: 40px;
+}
+
+.game-info {
+    padding-left: 10px;
+    color: darkred;
+    font-size: 20px;
+}
+
+#score::before {
+    content: "SCORE: ";
+    color: darkred;
+    font-size: 20px;
+}
+
+#userName::before {
+    content: "PLAYER NAME: ";
+    color: darkred;
+    font-size: 20px;
+}
+
+#modalContainer {
+    background-color: rgba(000, 000, 000, 0.8);
+    width: 100%;
+    height: 100%;
+    opacity: 80%;
+    display: block;
+    position: absolute;
+    top: 0;
+    left: 0;
+}
+
+.modal-menu {;
+    width: 500px;
+    height: 250px;
+    border: 1px solid yellow;
+    margin: 100px auto;
+    background-color: white;
+    border-radius: 10px;
+}
+
+#usrNameInput {
+    width: 450px;
+    height: 30px;
+    margin: 20px;
+    font-size: 18px;
+    font-weight: bold;
+}
+
+#startGame {
+    margin: 30px 0 30px 150px;
+    width: 200px;
+    height: 30px;
+    border-radius: 5px;;
+    font-size: 20px;
+    background-color: white;
+}
+
+#startGame:hover {
+    background-color: lavender;
+    cursor: pointer;
+}
+
+#gameOver {
+    position: absolute;
+    top: 35%;
+    left: 25%;
+    font-size: 60px;
+    font-weight: bold;
+    color: red;
+    display: none;
+}
+
+.modal-menu > p {
+    margin: 10px;
+}

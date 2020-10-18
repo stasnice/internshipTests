@@ -1,0 +1,71 @@
+
+.button-wrapper {
+    margin: 0 auto;
+    width: 70%;
+}
+
+#responseContent {
+    margin: 0 auto;
+    width: 70%;
+    display: flex;
+    flex-wrap: wrap;
+    padding-top: 20px;
+}
+
+.f-img {
+    width: 200px;
+    height: 200px;
+    margin: 10px;
+}
+
+#userQuery {
+    width: 50%;
+    height: 30px;
+    padding-left: 10px;
+}
+
+#userQuery {
+    position: relative;
+    border-radius: 5px;
+}
+
+#autoCompleteHolder {
+    position: absolute;
+    width: 100%;
+    left: 0;
+    top: 25px;
+    background-color: white;
+    opacity: 80%;
+}
+
+.input {
+    position: relative;
+}
+
+.tempAutoComplete {
+    padding-left: 10px;
+    margin: 5px;
+}
+
+
+.newsContainer {
+    display: flex;
+    flex-direction: column;
+    border: 1px solid black;
+    padding: 10px;
+    width: 100%;
+}
+
+.news-tittle {
+    padding: 10px;
+    font-size: 20px;
+    color: slateblue;
+}
+
+.news-body {
+    padding: 10px;
+}
+
+.tempAutoComplete:hover {
+    font-weight: bold;
+}

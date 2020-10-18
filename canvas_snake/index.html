@@ -1,0 +1,36 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport"
+          content="width=device-width, user-scalable=no, initial-scale=1.0, maximum-scale=1.0, minimum-scale=1.0">
+    <meta http-equiv="X-UA-Compatible" content="ie=edge">
+    <link type="text/css" rel="stylesheet" href="css/my.css">
+    <title>Document</title>
+</head>
+<body>
+<div id="modalContainer">
+    <div class="modal-menu">
+            <p>
+                This game is something like classical Snake. Using buttons left\right up\down (arrows on a keyboard) set snake direction to collect all food (red circles).
+            </p>
+            <label for="usrNameInput">
+                <input type="text" id="usrNameInput" placeholder="please enter your name here..." autofocus>
+            </label>
+            <button id="startGame" type="submit" >Start Game</button>
+    </div>
+</div>
+<div id="gameOver">
+    Game over! your result is
+</div>
+<main class="main">
+    <canvas width="600" height="600" id="cv"></canvas>
+    <div class="game-info">
+        <div id="userName"></div>
+        <div id="score">0</div>
+    </div>
+</main>
+
+<script type="text/javascript" src="js/my.js"></script>
+</body>
+</html>
